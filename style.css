@@ -1,3 +1,46 @@
 body{
-
+  background-color: hsl(202, 70%, 95%);
+  color: hsl(106, 49%, 20%);
+  font-family: "arial";
+}
+[name="main-header"]{
+  position: sticky;
+  margin-left: 15px;
+  margin-right: 15px;
+  top: 10px;
+  text-align: center;
+  background-color: #2955D9;
+  color: hsl(106, 49%, 75%);
+  padding: 20px 0px 20px 0px;
+  width: 95%;
+}
+[name="main-text"]{
+  text-align: center;
+  border: dashed;
+  border-color: #448c30;
+  border-width: thin;
+  padding: 10px 40px 10px 40px;
+  width: 750px;
+  margin: auto;
+}
+[name="Benny-quote"]{
+  font-size: 16px;
+  text-align: right;
+  margin-right: 45px;
+}
+[name="top-three"]{
+  font-size: 14px;
+  text-align: center;
+  list-style-position: inside;
+  top: 200px;
+}
+[name="happy-planet"]{
+  border-radius: 50%;
+}
+.globe{
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  width: 100px;
+  height: 100px;
 }
