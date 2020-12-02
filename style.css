@@ -19,21 +19,24 @@ body{
   border: dashed;
   border-color: #448c30;
   border-width: thin;
-  padding: 10px 40px 10px 40px;
-  width: 750px;
-  margin: auto;
+  padding: 10px 15px 10px 15px;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 [name="Benny-quote"]{
   font-size: 16px;
   text-align: right;
   margin-right: 45px;
 }
+/*
 [name="top-three"]{
   font-size: 14px;
   text-align: center;
   list-style-position: inside;
   top: 200px;
 }
+*/
 [name="happy-planet"]{
   border-radius: 50%;
 }
